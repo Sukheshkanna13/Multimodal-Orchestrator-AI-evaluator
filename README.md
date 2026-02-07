@@ -4,6 +4,9 @@
 
 **OrchestIQ Grader** is a modular, event-driven microservices architecture designed to automate and validate the grading of handwritten or template-based exam answers. By chaining a Vision Agent (OCR), an LLM Agent (Scoring), and an OPA Policy Engine (Consensus), it provides a fast, auditable, and transparent grading system, moving beyond simple single-model pipelines.
 
+<img width="683" height="440" alt="Screenshot 2026-02-07 at 9 33 00 AM" src="https://github.com/user-attachments/assets/4b2c3123-9bdf-49ba-8f40-5bdef2a4f2db" />
+
+
 ## ✨ Novelty & Key Features
 
 This project's core innovation lies in its **Composable Orchestrator and Consensus** approach:
