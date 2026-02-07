@@ -15,6 +15,10 @@ This project's core innovation lies in its **Composable Orchestrator and Consens
 * **Vision-to-LLM Chain:** It first uses a **Vision Agent** (OCR/HWR) to convert the handwritten image to text, and then passes the result and confidence score to the **LLM Agent**.
 * **Decoupled Consensus (OPA):** The final grading decision is not made by the LLM. Instead, the LLM's suggested grade and confidence are passed to the **Open Policy Agent (OPA)** engine. OPA applies a predefined, auditable policy to determine the final status (e.g., `COMPLETE` or `MANUAL_REVIEW`).
 * **LLM Grader:** Leverages the **Groq API** and `llama-3.1-8b-instant` for fast, accurate grading and structured JSON output.
+* 
+<img width="1470" height="729" alt="Screenshot 2026-02-07 at 9 37 42 AM" src="https://github.com/user-attachments/assets/f859516b-edcd-4608-96b5-80cbfeebaaf1" />
+
+<img width="1115" height="696" alt="Screenshot 2026-02-07 at 9 39 42 AM" src="https://github.com/user-attachments/assets/24af052b-7bb3-4e63-839a-8d92ba8e900e" />
 
 ## 🏗️ Architecture Overview
 
